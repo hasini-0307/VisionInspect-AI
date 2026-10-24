@@ -1,0 +1,61 @@
+{
+  "category": "tile",
+  "params": {
+    "smooth": 2.0,
+    "C": 40,
+    "use_color": true,
+    "sat_delta": 6,
+    "use_texture": false,
+    "area_thr": 0.6617
+  },
+  "split": {
+    "tuning": 49,
+    "test": 119,
+    "seed": 42
+  },
+  "tuning_balanced_accuracy": 0.8758333333333332,
+  "test": {
+    "n": 119,
+    "accuracy": 0.7647058823529411,
+    "precision": 0.8478260869565217,
+    "recall": 0.65,
+    "f1": 0.7358490566037735,
+    "balanced_accuracy": 0.7656779661016949,
+    "TP": 39,
+    "TN": 52,
+    "FP": 7,
+    "FN": 21,
+    "mean_ms": 27.40579831932773,
+    "fps": 36.488628732802056
+  },
+  "per_folder": {
+    "test/crack": {
+      "n": 12,
+      "correct": 11
+    },
+    "test/glue_strip": {
+      "n": 13,
+      "correct": 5
+    },
+    "test/good": {
+      "n": 23,
+      "correct": 20
+    },
+    "test/gray_stroke": {
+      "n": 11,
+      "correct": 4
+    },
+    "test/oil": {
+      "n": 13,
+      "correct": 13
+    },
+    "test/rough": {
+      "n": 11,
+      "correct": 6
+    },
+    "train/good": {
+      "n": 36,
+      "correct": 32
+    }
+  }
+}

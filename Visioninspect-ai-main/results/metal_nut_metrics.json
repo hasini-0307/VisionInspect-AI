@@ -1,0 +1,57 @@
+{
+  "category": "metal_nut",
+  "params": {
+    "smooth": 2.5,
+    "C": 40,
+    "use_color": true,
+    "sat_delta": 25,
+    "area_thr": 1.4856,
+    "shape_thr": 0.00067
+  },
+  "split": {
+    "tuning": 57,
+    "test": 129,
+    "seed": 42
+  },
+  "tuning_balanced_accuracy": 0.7924876847290641,
+  "test": {
+    "n": 129,
+    "accuracy": 0.8062015503875969,
+    "precision": 0.9534883720930233,
+    "recall": 0.640625,
+    "f1": 0.766355140186916,
+    "balanced_accuracy": 0.8049278846153847,
+    "TP": 41,
+    "TN": 63,
+    "FP": 2,
+    "FN": 23,
+    "mean_ms": 17.366356589147284,
+    "fps": 57.58260201940847
+  },
+  "per_folder": {
+    "test/bent": {
+      "n": 17,
+      "correct": 14
+    },
+    "test/color": {
+      "n": 15,
+      "correct": 8
+    },
+    "test/flip": {
+      "n": 16,
+      "correct": 16
+    },
+    "test/good": {
+      "n": 15,
+      "correct": 14
+    },
+    "test/scratch": {
+      "n": 16,
+      "correct": 3
+    },
+    "train/good": {
+      "n": 50,
+      "correct": 49
+    }
+  }
+}

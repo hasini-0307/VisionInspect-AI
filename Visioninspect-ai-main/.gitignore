@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Course documents (personal details, college material)
+docs/
+
+# MVTec AD dataset (download separately, see README)
+data/tile/
+data/metal_nut/
+
+# macOS
+.DS_Store
+
+# Live demo saved frames
+results/live/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+data/tile/
+data/metal_nut/

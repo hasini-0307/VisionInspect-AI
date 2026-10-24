@@ -1,0 +1,14 @@
+{
+  "category": "tile",
+  "calibrated_on": "49 tuning images",
+  "seed": 42,
+  "tuning_balanced_accuracy": 0.8758,
+  "params": {
+    "smooth": 2.0,
+    "C": 40,
+    "use_color": true,
+    "sat_delta": 6,
+    "use_texture": false,
+    "area_thr": 0.6617
+  }
+}

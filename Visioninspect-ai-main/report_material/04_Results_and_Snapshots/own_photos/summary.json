@@ -1,0 +1,62 @@
+[
+  {
+    "object": "card",
+    "photo": "good_01.jpeg",
+    "expected": "PASS",
+    "verdict": "PASS",
+    "largest_defect_pct": 0.0,
+    "confidence": 1.0,
+    "n_defect_regions": 0,
+    "ms": 117.0
+  },
+  {
+    "object": "card",
+    "photo": "defect_01.jpeg",
+    "expected": "DEFECTIVE",
+    "verdict": "DEFECTIVE",
+    "largest_defect_pct": 2.16,
+    "confidence": 1.0,
+    "n_defect_regions": 1,
+    "ms": 14.5
+  },
+  {
+    "object": "coin",
+    "photo": "good_01.jpeg",
+    "expected": "PASS",
+    "verdict": "PASS",
+    "largest_defect_pct": 0.0,
+    "confidence": 1.0,
+    "n_defect_regions": 0,
+    "ms": 13.6
+  },
+  {
+    "object": "coin",
+    "photo": "defect_01.jpeg",
+    "expected": "DEFECTIVE",
+    "verdict": "DEFECTIVE",
+    "largest_defect_pct": 1.86,
+    "confidence": 0.93,
+    "n_defect_regions": 1,
+    "ms": 13.5
+  },
+  {
+    "object": "object",
+    "photo": "good_01.jpeg",
+    "expected": "PASS",
+    "verdict": "PASS",
+    "largest_defect_pct": 0.0,
+    "confidence": 1.0,
+    "n_defect_regions": 0,
+    "ms": 13.8
+  },
+  {
+    "object": "object",
+    "photo": "defect_01.jpeg",
+    "expected": "DEFECTIVE",
+    "verdict": "DEFECTIVE",
+    "largest_defect_pct": 6.67,
+    "confidence": 1.0,
+    "n_defect_regions": 1,
+    "ms": 13.0
+  }
+]
